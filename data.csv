@@ -1,0 +1,65 @@
+,attribute,dtype,types,freeform
+0,Incident Number,int64,int,+
+1,Exposure Number,int64,int,+
+2,ID,int64,int,+
+3,Address,object,text,+
+4,Incident Date,object,date,+
+5,Call Number,int64,int,+
+6,Alarm DtTm,object,date,+
+7,Arrival DtTm,object,date,+
+8,Close DtTm,object,date,+
+9,City,object,text,+
+10,zipcode,object,text,+
+11,Battalion,object,text,-
+12,Station Area,object,text,-
+13,Box,object,text,+
+14,Suppression Units,int64,int,+
+15,Suppression Personnel,int64,int,+
+16,EMS Units,int64,int,+
+17,EMS Personnel,int64,int,+
+18,Other Units,int64,int,+
+19,Other Personnel,int64,int,+
+20,First Unit On Scene,object,text,-
+21,Estimated Property Loss,float64,float,+
+22,Estimated Contents Loss,float64,float,+
+23,Fire Fatalities,int64,int,+
+24,Fire Injuries,int64,int,+
+25,Civilian Fatalities,int64,int,+
+26,Civilian Injuries,int64,int,+
+27,Number of Alarms,int64,int,+
+28,Primary Situation,object,text,-
+29,Mutual Aid,object,text,+
+30,Action Taken Primary,object,text,-
+31,Action Taken Secondary,object,text,-
+32,Action Taken Other,object,text,-
+33,Detector Alerted Occupants,object,text,+
+34,Property Use,object,text,-
+35,Area of Fire Origin,object,text,-
+36,Ignition Cause,object,text,-
+37,Ignition Factor Primary,object,text,-
+38,Ignition Factor Secondary,object,text,-
+39,Heat Source,object,text,-
+40,Item First Ignited,object,text,-
+41,Human Factors Associated with Ignition,object,text,-
+42,Structure Type,object,text,-
+43,Structure Status,object,text,-
+44,Floor of Fire Origin,float64,float,+
+45,Fire Spread,object,text,-
+46,No Flame Spead,object,text,+
+47,Number of floors with minimum damage,float64,float,+
+48,Number of floors with significant damage,float64,float,+
+49,Number of floors with heavy damage,float64,float,+
+50,Number of floors with extreme damage,float64,float,+
+51,Detectors Present,object,text,+
+52,Detector Type,object,text,-
+53,Detector Operation,object,text,-
+54,Detector Effectiveness,object,text,-
+55,Detector Failure Reason,object,text,-
+56,Automatic Extinguishing System Present,object,text,-
+57,Automatic Extinguishing Sytem Type,object,text,-
+58,Automatic Extinguishing Sytem Perfomance,object,text,-
+59,Automatic Extinguishing Sytem Failure Reason,object,text,-
+60,Number of Sprinkler Heads Operating,float64,float,+
+61,Supervisor District,float64,float,+
+62,neighborhood_district,object,text,+
+63,point,object,"POINT(float, float)",+
